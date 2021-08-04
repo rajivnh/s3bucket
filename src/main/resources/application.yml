@@ -1,12 +1,15 @@
-server:  port: 80
+server:
+  port: 80
 cloud:
   aws:
     credentials:
-      access-key: AKIAQ4JFSEKOZ2LAUBFV
-      secret-key: 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
-    region:      static: ap-south-1
+      access-key: XXX
+      secret-key: XXX
+    region:
+      static: XXX
       auto: false
-    stack:      auto: false
+    stack:
+      auto: false
 
 logging:
   level:
