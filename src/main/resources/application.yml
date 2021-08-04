@@ -1,0 +1,16 @@
+server:  port: 80
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAQ4JFSEKOZ2LAUBFV
+      secret-key: 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
+    region:      static: ap-south-1
+      auto: false
+    stack:      auto: false
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
